@@ -5,6 +5,5 @@ test('getMetricBMI', () => {
 });
 
 test('getBMIType', () => {
-  expect(getBMIType(31)).toBe("Obese");
+  expect(getBMIType(31)).toBe('Obese');
 });
-
